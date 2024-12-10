@@ -1,0 +1,190 @@
+
+  
+
+    .input-container {
+    position: relative;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right:10%
+  }
+  
+  .input-container label {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    background-color: white;
+    padding: 0 2px;
+    
+  }
+  
+  .input-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 4px;
+    border-radius: 40px;
+   
+    
+  } 
+  .input-container:focus-within {
+    border-color: red;
+  }
+   
+
+
+
+
+
+
+
+   
+/* Styles for the email input field */
+/* .email-input {
+  border: 1px solid lightgrey; 
+  
+  outline: none; 
+} */
+
+/* Styles for the email input field when focused */
+/* .email-input:focus {
+  border-color: blue; 
+} */
+
+/* Styles for the email input field when invalid */
+/* .email-input.invalid {
+  border-color: red; 
+}
+.email-input.invalid:focus:hover {
+  border-color: red; 
+} */
+
+
+
+/* .email-input:hover {
+  border-color: black;
+}
+.email-input:focus:hover {
+  border-color: blue; 
+}
+
+.custom-dropup select {
+  position: relative;
+}
+
+.custom-dropup select::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-dropup select {
+  transform-origin: bottom;
+  transform: translateY(-100%);
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ .dropdownn { 
+  position: relative;
+  display: inline-block;
+} */
+
+/* .dropdownn-btn { */
+  /* display: flex; */
+  /* align-items: center; */
+  /* background-color: lightgray; */
+  /* color: black; */
+  /* border: 1px solid #ccc; */
+  /* padding: 10px 20px;  */
+  /* border-radius: 4px; */
+  /* font-size: 16px; */
+  /* font-weight: bold; */
+  /* white-space: nowrap;  */
+/* } */
+
+/* .dropdownn-icon {
+  margin: 0 5px; /* Adjust margin to control spacing between icons and text */
+  
+/* }  */
+
+ /* .dropdownn-text { */
+  /* text-align: center;  */
+  /* flex: 1;  */
+/* }  */
+
+/* .dropdownn-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+} */
+/* 
+ .dropdownn-item {
+  padding: 2px 20px;
+  cursor: pointer;
+  
+}  */
+
+ /* .dropdownn-item:hover {
+  background-color:yellow;
+ }    */
+
+
+
+
+
+ .dropdownn {
+  position: relative;
+  display: inline-block;
+  
+ 
+}
+
+.styled-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  display: inline-flex;
+  /* width:25px; */
+
+
+  align-items: center;
+}
+
+.bracket {
+   padding: 0 10px; 
+  
+
+ 
+
+}
+
+.button-text {
+   padding: 0 18px; 
+ 
+}
+
+.styled-button:focus {
+  outline: none;
+}
+ 

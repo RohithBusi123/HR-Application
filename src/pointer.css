@@ -1,0 +1,19 @@
+.bottom-border-input {
+  margin-top: 23px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid black;
+  outline: none; /* Prevents the default focus border */
+}
+
+.bottom-border-input:focus {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid black;
+  outline: none; /* Ensures no additional outline appears on focus */
+ } 
+
+    
+  
